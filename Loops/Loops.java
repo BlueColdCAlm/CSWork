@@ -32,5 +32,12 @@ public class Loops {
         for(int i = 1; i <= stopVal; i++){
             System.out.println(i + " squared =" + (i*i));
         }
+        writeSquares5();
+    }
+    public static void writeSquares5(){
+        System.out.println("writeSquares5");
+        for(int c = ( 2+ 2); c <= (17*3); c++){
+            System.out.println(c + " squared = " + (c * c));
+        }
     }
 }
